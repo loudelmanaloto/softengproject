@@ -1,0 +1,50 @@
+<mat-toolbar color="primary">
+  <span>Unify CCS</span>
+</mat-toolbar>
+
+<div>
+  <mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile>
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>EVENTS</mat-card-title>
+          <mat-card-subtitle>subtitle</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content> </mat-card-content>
+        <mat-card-actions>
+          <button [routerLink]="['/events']" routerLinkActive="router-link-active"  mat-button>Ok</button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>PAYMENTS</mat-card-title>
+          <mat-card-subtitle>subtitle</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content> </mat-card-content>
+        <mat-card-actions>
+          <button
+            [routerLink]="['/payments']"
+            routerLinkActive="router-link-active"
+            mat-button
+          >
+            Ok
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>VOTING</mat-card-title>
+          <mat-card-subtitle>subtitle</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content> </mat-card-content>
+        <mat-card-actions>
+          <button [routerLink]="['/voting']" routerLinkActive="router-link-active"  mat-button>Ok</button>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
